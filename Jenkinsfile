@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: '', branch: 'main'
+                git url: 'https://github.com/IradIcaTE/project-1-static-website.git', branch: 'main'
             }
         }
 
