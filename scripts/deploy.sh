@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Building Docker Image"
-docker build -t static-site:v1 ../docker
+docker build -t static-site:v1 docker
 
 echo "Stopping old container if running.."
 docker rm -f static-site-container 2>/dev/null
